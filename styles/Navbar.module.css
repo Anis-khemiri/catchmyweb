@@ -1,0 +1,14 @@
+
+
+
+
+.navbar {
+    background-color: rgb(206, 198, 198);
+}
+
+.navbarBrand {
+    color: #ff3150;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none
+}

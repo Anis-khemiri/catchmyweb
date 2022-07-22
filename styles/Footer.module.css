@@ -1,0 +1,15 @@
+
+.main-btn {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    padding: 0.5rem 1rem;
+  }
+
+.copyright {
+    background-color: rgba(32, 18, 18, 1);
+}
+
+
+.btncon {
+    background-color: antiquewhite;
+}
