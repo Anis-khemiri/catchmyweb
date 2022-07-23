@@ -5,11 +5,11 @@ export default function Landing() {
   return (
     <>
     <div className="landing d-flex justify-content-center align-items-center">
-  <div className="video">
-  <video loop autoPlay>         
+  
+  <video loop muted autoPlay className="video">         
     <source src="./video.mp4" type="video/mp4"  />       
 </video>
-        </div>
+        
     <div className="text-center text-light">
       <h1>Taste the Creativity</h1>
       
