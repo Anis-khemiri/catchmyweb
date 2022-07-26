@@ -4,11 +4,7 @@ import Image from 'next/image'
 export default function Meeteam() {
   return (
     <>
-        <div className="col-lg-8">
-        <div className="image">
-          <Image className="img-fluid" src="/project1.png" alt="" width= "200px" height= "200" />
-        </div>
-      </div>
+    
 
       <div className="team text-center pb-5 pt-5">
         <div className="container pb-5 pt-5">
@@ -65,26 +61,7 @@ export default function Meeteam() {
         </div>
       </div>
       <div className="techs pt-5 pb-5 text-center">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
-            <Image className="img-fluid" src="/project1.png" alt="" width= "200px" height= "200" />
-            </div>
-            <div className="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
-            <Image className="img-fluid" src="/project1.png" alt="" width= "200px" height= "200" />
-            </div>
-            <div className="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
-            <Image className="img-fluid" src="/project1.png" alt="" width= "200px" height= "200" />
-            </div>
-            <div className="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
-            <Image className="img-fluid" src="/project1.png" alt="" width= "200px" height= "200" />
-            </div>
-            <div className="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
-            <Image className="img-fluid" src="/project1.png" alt="" width= "200px" height= "200" />
-   
-          </div>
-        </div>
-    </div>
+
     </div>
 
     </>

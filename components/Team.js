@@ -31,6 +31,11 @@ export default function Team() {
                 <a className="btn rounded-pill main-btn text-uppercase" href="#">Order Me One</a>
               </div>
             </div>
+            <div className="col-lg-3 ms-auto">
+        <div className="image ">
+          <Image className="img-fluid" src="/project1.png" alt="" width= "400px" height= "400" />
+        </div>
+      </div>
             </div>
             </div>
             </div>

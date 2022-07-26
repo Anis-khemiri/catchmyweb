@@ -12,7 +12,7 @@
                 brand: 'Nike',
                 rating: 2.5,
                 numReviews: 10,
-                description: 'high quality product',
+                description: ['all','design'],
             },
             {
                
@@ -24,7 +24,7 @@
                 brand: 'Adidas',
                 rating: 4.5,
                 numReviews: 10,
-                description: 'high quality product',
+                description: ['all','app'],
             },
             {
                
@@ -36,7 +36,7 @@
                 brand: 'Lacoste',
                 rating: 4.8,
                 numReviews: 17,
-                description: 'high quality product',
+                description: ['all','design'],
             },
             {
                 
@@ -48,7 +48,7 @@
                 brand: 'Nike',
                 rating: 4.5,
                 numReviews: 14,
-                description: 'high quality product',
+                description: ['all','design'],
             },
             {
                
@@ -60,7 +60,7 @@
                 brand: 'Puma',
                 rating: 4.5,
                 numReviews: 10,
-                description: 'high quality product',
+                description: ['all','design'],
             },
             {
               
@@ -72,7 +72,7 @@
                 brand: 'Adidas',
                 rating: 4.5,
                 numReviews: 10,
-                description: 'high quality product',
+                description: ['all', 'photo']
             },
              {   name: 'Adidas Fit Pants',
                 category: 'Pants',
@@ -82,18 +82,18 @@
                 brand: 'Adidas',
                 rating: 4.5,
                 numReviews: 10,
-                description: 'high quality product',
+                description: ['all','design'],
             },
             {
                 name: 'Adidas Fit Pants',
                 category: 'Pants',
-                image: '/project6.png',
+                image: '/project2.png',
                 price: 80,
                 countInStock: 10,
                 brand: 'Adidas',
                 rating: 4.5,
                 numReviews: 10,
-                description: 'high quality product',
+                description: ['all','code'],
             }
             
         ],

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import dataPortfolio from './data/dataPortfolio';
+import Tabs from './Tab';
 
 export default function Works() {
   return (
@@ -10,29 +11,9 @@ export default function Works() {
             <h2>We Make This</h2>
             <p className="text-black-50 text-uppercase">Prepare To Be Amazed</p>
           </div>
-          <ul className="list-unstyled d-flex justify-content-center mt-5 mb-5">
-            <li className="active rounded-pill">All</li>
-            <li>Design</li>
-            <li>Code</li>
-            <li>Photo</li>
-            <li>App</li>
-          </ul>
+   
           <div className="row">
-            {dataPortfolio.projects.map((project) => {
-              return (
-                <div className="col-sm-6 col-md-4 col-lg-3" key={project.id}>
-                  <div className="box mb-3 bg-white" data-work="Application">
-                    <Image
-                      src={project.image}
-                      width="296px"
-                      height="220px"
-                      alt=""
-                    />
-                    <h4>{project.name}</h4>
-                  </div>
-                </div>
-              );
-            })}
+          <Tabs />
           </div>
 
           <div className="d-flex justify-content-center mt-5">
