@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Image from 'next/image';
+import Link from "next/link";
 export default function Feature() {
   return (
     <>
@@ -11,45 +12,47 @@ export default function Feature() {
             <p className="text-black-50 text-uppercase">Some Of These Stuff Under</p>
           </div>
           <div className="row">
-            <div className="col-md-6 col-lg-4">
-              <div className="feat">
-                <div className="icon-holder position-relative">
-                  <i className="fa-solid fa-1 position-absolute bottom-0 number"></i>
-                  <i className="fa-solid fa-pencil fa-4x position-absolute bottom-0 icon"></i>
-                </div>
-                <h4 className="mb-3 mt-3 text-uppercase">Graphic Design</h4>
-                <p className="text-black-50 lh-lg">
-                  Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
-                  convallis at tellus.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="feat">
-                <div className="icon-holder position-relative">
-                  <i className="fa-solid fa-2 position-absolute bottom-0 number"></i>
-                  <i className="fa-solid fa-tv fa-4x position-absolute bottom-0 icon"></i>
-                </div>
-                <h4 className="mb-3 mt-3 text-uppercase">Graphic Design</h4>
-                <p className="text-black-50 lh-lg">
-                  Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
-                  convallis at tellus.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="feat">
-                <div className="icon-holder position-relative">
-                  <i className="fa-solid fa-3 position-absolute bottom-0 number"></i>
-                  <i className="fa-solid fa-plug fa-4x position-absolute bottom-0 icon"></i>
-                </div>
-                <h4 className="mb-3 mt-3 text-uppercase">Graphic Design</h4>
-                <p className="text-black-50 lh-lg">
-                  Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
-                  convallis at tellus.
-                </p>
-              </div>
-            </div>
+          <div className="card cardbg col-md-6 col-lg-3 ">
+            <div className="imgs">
+  <Image src="/ecommerce.png" width="80" height="80"  alt="ecommerce"/>
+  </div>
+  <div className="card-body feat">
+    <h4 className="card-title mb-3 mt-3 text-uppercase">Site E-commerce</h4>
+    <p className="card-text">Pour une meilleure expérience client, nous concevons des sites e-Commerce selon une approche qui met les besoins des utilisateurs au centre de nos préoccupations.</p>
+    <Link href="#"><a className="btn btn-primary">En savoir plus</a></Link>
+  </div>
+</div>
+          <div className="card cardbg col-md-6 col-lg-3">
+            <div className="imgs">
+  <Image src="/creation-de-sites-web.png" width="80" height="80"  alt="ecommerce"/>
+  </div>
+  <div className="card-body feat">
+    <h4 className="card-title mb-3 mt-3 text-uppercase">Site web vitrine</h4>
+    <p className="card-text">Pour une meilleure expérience client, nous concevons des sites e-Commerce selon une approche qui met les besoins des utilisateurs au centre de nos préoccupations.</p>
+    <Link href="#"><a className="btn btn-primary">En savoir plus</a></Link>
+  </div>
+</div>
+          <div className="card cardbg col-md-6 col-lg-3">
+            <div className="imgs">
+  <Image src="/ecommerce.png" width="80" height="80"  alt="ecommerce"/>
+  </div>
+  <div className="card-body feat">
+    <h4 className="card-title mb-3 mt-3 text-uppercase">Site E-commerce</h4>
+    <p className="card-text">Pour une meilleure expérience client, nous concevons des sites e-Commerce selon une approche qui met les besoins des utilisateurs au centre de nos préoccupations.</p>
+    <Link href="#"><a className="btn btn-primary">En savoir plus</a></Link>
+  </div>
+</div>
+          <div className="card cardbg col-md-6 col-lg-3">
+            <div className="imgs">
+  <Image src="/ecommerce.png" width="80" height="80"  alt="ecommerce"/>
+  </div>
+  <div className="card-body feat">
+    <h4 className="card-title mb-3 mt-3 text-uppercase">Site E-commerce</h4>
+    <p className="card-text">Pour une meilleure expérience client, nous concevons des sites e-Commerce selon une approche qui met les besoins des utilisateurs au centre de nos préoccupations.</p>
+    <Link href="#"><a className="btn btn-primary">En savoir plus</a></Link>
+  </div>
+</div>
+           
           </div>
         </div>
         </div>
