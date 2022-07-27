@@ -110,9 +110,26 @@ body {
   color: var(--yellow-color);
 }
 .cardbg {
+  
   background-color: #e2d5d569;
 
+  box-shadow: 10px 15px #9aaec947;
+  /* box-shadow: 0 2px 15px rgb(0 0 0 / 10%); */
+
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+
 }
+.cardbg:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+/* .more {
+  margin-top: 24px;
+} */
+  
+
 /* End Features */
 /* Start Our Work */
 .our-work {
@@ -252,5 +269,4 @@ body {
   display: block;
 }
 /* service */
-
 
