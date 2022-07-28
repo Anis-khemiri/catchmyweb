@@ -113,8 +113,8 @@ body {
   
   background-color: #e2d5d569;
 
-  box-shadow: 10px 15px #9aaec947;
-  /* box-shadow: 0 2px 15px rgb(0 0 0 / 10%); */
+  /* box-shadow: 10px 15px #9aaec947; */
+  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
 
   border-radius: 6px;
   overflow: hidden;
@@ -150,6 +150,7 @@ body {
   padding: 5px;
   overflow: hidden;
   position: relative;
+  background-color: #e2d5d569;
 }
 .our-work .box::before {
   content: attr(data-work);
@@ -165,6 +166,7 @@ body {
   transition: 0.3s;
   font-size: 1.5rem;
   transform: translateX(calc(-100% - 5px));
+  z-index: 1000;
 }
 .our-work .box:hover::before {
   transform: translateX(0);

@@ -141,7 +141,7 @@ export default function Feature() {
                 Un CRM (Customer Relation Management ou Logiciel de Gestion de la Relation Client) est un outil qui aide les entreprises à mettre en place
                 </p>
                 <Link href="#">
-                  <a className="btn btn-primary">En savoir plus</a>
+                  <a className="btn btn-primarynpm">En savoir plus</a>
                 </Link>
               </div>
             </div>

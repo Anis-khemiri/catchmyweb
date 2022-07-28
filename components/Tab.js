@@ -49,8 +49,8 @@ const Tabs = () => {
       </ul>
       {listpro.map((proj) => {
         return (
-          <div className="col-sm-6 col-md-4 col-lg-3" key={proj.id}>
-            <div className="box mb-3 bg-white" data-work="Application">
+          <div className="col-sm-6 col-md-4 col-lg-3 cardbg"key={proj.id} >
+            <div className="box mb-3" data-work="Application" >
               <Image src={proj.image} width="296px" height="220px" alt="" />
               <h4>{proj.name}</h4>
             </div>
