@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import FadeIn from 'react-fade-in';
 import dataPortfolio from './data/dataPortfolio';
 import Image from 'next/image';
 const Tabs = () => {
@@ -49,12 +50,17 @@ const Tabs = () => {
       </ul>
       {listpro.map((proj) => {
         return (
+
           <div className="col-sm-6 col-md-4 col-lg-3 cardbg"key={proj.id} >
-            <div className="box mb-3" data-work="Application" >
+            
+            <FadeIn className="box mb-3" data-work="Application" >
               <Image src={proj.image} width="296px" height="220px" alt="" />
               <h4>{proj.name}</h4>
-            </div>
+            </FadeIn>
+           
           </div>
+      
+      
         );
       })}
     </>

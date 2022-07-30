@@ -125,6 +125,11 @@ body {
   transform: translateY(-10px);
   box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
 }
+.animateFadeIn {
+  animation: fade-in linear 300ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 0.25s; }
 /* .more {
   margin-top: 24px;
 } */
@@ -151,10 +156,15 @@ body {
   overflow: hidden;
   position: relative;
   background-color: #e2d5d569;
+  border-radius: 33px;
+    margin-bottom: 22px;
+
 }
 .our-work .box::before {
   content: attr(data-work);
   position: absolute;
+  border-radius: 50%;
+
   background-color: rgb(51 209 204 / 76%);
   width: calc(100% - 10px);
   height: calc(100% - 10px);
@@ -186,6 +196,19 @@ body {
 }
 .team .box h4 {
   background-color: var(--green-color);
+  border-radius: 10px;
+}
+.sectionTeam {
+
+
+
+  background-color: #eee;
+  width: 40%;
+  margin: auto;
+
+}
+.imgteam {
+  border-radius: 50%;
 }
 /* End Team */
 /* Start Project */
