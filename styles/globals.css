@@ -156,14 +156,14 @@ body {
   overflow: hidden;
   position: relative;
   background-color: #e2d5d569;
-  border-radius: 33px;
+
     margin-bottom: 22px;
 
 }
 .our-work .box::before {
   content: attr(data-work);
   position: absolute;
-  border-radius: 50%;
+
 
   background-color: rgb(51 209 204 / 76%);
   width: calc(100% - 10px);
