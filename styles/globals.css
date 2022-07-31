@@ -110,7 +110,12 @@ body {
   color: var(--yellow-color);
 }
 .cardbg {
-  
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ 
   background-color: #e2d5d569;
 
   /* box-shadow: 10px 15px #9aaec947; */
@@ -133,7 +138,21 @@ body {
 /* .more {
   margin-top: 24px;
 } */
-  
+/* .feat {
+  position: relative;
+} */
+.buttonPlus {
+  position: absolute;
+ 
+ transform: translateX(-50%);
+ bottom: 0;
+ margin-bottom: 10px;
+}
+  /* .feat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
 
 /* End Features */
 /* Start Our Work */
@@ -203,12 +222,17 @@ body {
 
 
   background-color: #eee;
-  width: 40%;
+
   margin: auto;
 
 }
 .imgteam {
   border-radius: 50%;
+  filter: grayscale(0%);
+}
+.imgteam:hover {
+  filter: grayscale(100%);
+
 }
 /* End Team */
 /* Start Project */

@@ -32,7 +32,7 @@ export default function Feature() {
                   utilisateurs au centre de nos préoccupations.
                 </p>
                 <Link href="#">
-                  <a className="btn btn-primary">En savoir plus</a>
+                  <a className="btn btn-primary buttonPlus">En savoir plus</a>
                 </Link>
               </div>
             </div>
@@ -55,7 +55,7 @@ export default function Feature() {
                   utilisateurs au centre de nos préoccupations.
                 </p>
                 <Link href="#">
-                  <a className="btn btn-primary">En savoir plus</a>
+                  <a className="btn btn-primary buttonPlus">En savoir plus</a>
                 </Link>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function Feature() {
                   alt="ecommerce"
                 />
               </div>
-              <div className="card-body feat">
+              <div className="card-body feat ">
                 <h4 className="card-title mb-3 mt-3 text-uppercase">
                   Référencement web
                 </h4>
@@ -77,7 +77,7 @@ export default function Feature() {
                   votre site dans les moteurs de recherche.
                 </p>
                 <Link href="#">
-                  <a className="btn btn-primary">En savoir plus</a>
+                  <a className="btn btn-primary buttonPlus">En savoir plus</a>
                 </Link>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function Feature() {
                   rédactionnels pour vos réseaux sociau
                 </p>
                 <Link href="#">
-                  <a className="btn btn-primary">En savoir plus</a>
+                  <a className="btn btn-primary buttonPlus">En savoir plus</a>
                 </Link>
               </div>
             </div>
@@ -120,7 +120,7 @@ export default function Feature() {
                 Nous concevons des solutions pour centraliser vos données et gérer votre entreprise (ventes, management, production, comptabilité, logistique, RH…).
                 </p>
                 <Link href="#">
-                  <a className="btn btn-primary">En savoir plus</a>
+                  <a className="btn btn-primary buttonPlus">En savoir plus</a>
                 </Link>
               </div>
             </div>
@@ -141,7 +141,7 @@ export default function Feature() {
                 Un CRM (Customer Relation Management ou Logiciel de Gestion de la Relation Client) est un outil qui aide les entreprises à mettre en place
                 </p>
                 <Link href="#">
-                  <a className="btn btn-primary">En savoir plus</a>
+                  <a className="btn btn-primary justify-content-around buttonPlus">En savoir plus</a>
                 </Link>
               </div>
             </div>
@@ -162,7 +162,7 @@ export default function Feature() {
                 Ne vous laissez pas devancés par vos compétiteurs et laissez nous vous aider afin de bâtir votre site web une version mobile ou encore…
                 </p>
                 <Link href="#" >
-                  <a className="btn btn-primary">En savoir plus</a>
+                  <a className="btn btn-primary buttonPlus">En savoir plus</a>
                 </Link>
               </div>
             </div>
@@ -183,7 +183,7 @@ export default function Feature() {
                 Un site web sur mesure est un support de communication incontournable. Il vous donne une identification personnalisée avec un développement adapté à votre infrastructure existante.
                 </p>
                 <Link href="#">
-                  <a className="btn btn-primary">En savoir plus</a>
+                  <a className="btn btn-primary buttonPlus">En savoir plus</a>
                 </Link>
               </div>
             </div>

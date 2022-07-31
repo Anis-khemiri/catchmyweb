@@ -57,7 +57,7 @@ export default function Meeteam() {
             </div>
           </div> */}
 
-          <div className="d-flex flex-column center sectionTeam">
+          <div className="d-flex flex-column center sectionTeam col-10">
             <FadeIn
               from="right"
               positionOffset={800}
@@ -69,13 +69,13 @@ export default function Meeteam() {
                   className="img-fluid imgteam"
                   src="/Nagui khallouli.jpg"
                   alt=""
-                  width="200px"
-                  height="200"
+                  width="400px"
+                  height="400"
                 />
                 <h4 className="p-3 text-light">Nagui khallouli</h4>
-                <h4 className="text-black-50 p-3">
+                <h6 className="text-black-50 p-3">
                   UIX Design
-                </h4>
+                </h6>
               </div>
             </FadeIn>
             <FadeIn
@@ -89,13 +89,13 @@ export default function Meeteam() {
                   className="img-fluid imgteam"
                   src="/khemiri Anis.jpg"
                   alt=""
-                  width="200px"
-                  height="200"
+                  width="400px"
+                  height="400"
                 />
                 <h4 className="p-3 text-light">Khemiri Anis</h4>
-                <h4 className="text-black-50 p-3">
+                <h6 className="text-black-50 p-3">
                 FRONTEND WEB DEVELOPER
-                </h4>
+                </h6>
               </div>
             </FadeIn>
             <FadeIn
@@ -104,18 +104,18 @@ export default function Meeteam() {
               triggerOffset={-200}
               delayInMilliseconds={800}
             >
-              <div className="box bg-white ">
+              <div className="box bg-white">
                 <Image
                   className="img-fluid imgteam"
                   src="/Mostafa.jpg"
                   alt=""
-                  width="200px"
-                  height="200"
+                  width="400px"
+                  height="400"
                 />
                 <h4 className="p-3 text-light">Mostafa</h4>
-                <h4 className="text-black-50 p-3">
+                <h6 className="text-black-50 p-1">
                   BACKEND WEB DEVELOPER
-                </h4>
+                </h6>
               </div>
             </FadeIn>
           </div>
