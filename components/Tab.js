@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import FadeIn from 'react-fade-in';
 import dataPortfolio from './data/dataPortfolio';
 import Image from 'next/image';
@@ -14,7 +14,7 @@ const Tabs = () => {
   const checkActive = (e, className) => (activeIndex === e ? className : '');
 
   return (
-    
+    <Fragment>
       <ul className="list-unstyled d-flex justify-content-center mt-5 mb-5">
         <li
           className={`${checkActive('all', 'active')} rounded-pill`}
@@ -48,8 +48,24 @@ const Tabs = () => {
           App
         </li>
       </ul>
+      
+      {listpro.map((proj) => {
+        return (
 
+          <div className="col-sm-6 col-md-4 col-lg-3 cardbg" key={proj.id} >
+            
+            <FadeIn className="box mb-3" data-work="Application" >
+              <Image src={proj.image} width="296px" height="220px" alt="" />
+              <h4>{proj.name}</h4>
+            </FadeIn>
+           
+          </div>
+      
+      
+        );
+      })}
     
+    </Fragment>
   );
 };
 
