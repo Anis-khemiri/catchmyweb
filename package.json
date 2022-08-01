@@ -12,6 +12,7 @@
     "@popperjs/core": "^2.11.5",
     "bootstrap": "^5.2.0",
     "next": "12.2.2",
+    "next-seo": "^5.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-fade-in": "^2.0.1",

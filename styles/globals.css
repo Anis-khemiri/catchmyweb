@@ -214,8 +214,10 @@ body {
   color: var(--yellow-color);
 }
 .team .box h4 {
+  width:30%;
   background-color: var(--green-color);
   border-radius: 10px;
+ margin: auto;
 }
 .sectionTeam {
 
@@ -223,7 +225,7 @@ body {
 
   background-color: #eee;
 
-  margin: auto;
+  
 
 }
 .imgteam {

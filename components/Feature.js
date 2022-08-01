@@ -32,7 +32,7 @@ export default function Feature() {
                   utilisateurs au centre de nos préoccupations.
                 </p>
                 <Link href="#">
-                  <a className="btn btn-primary buttonPlus">En savoir plus</a>
+                  <a className="btn btn-primary buttonPlus ">En savoir plus</a>
                 </Link>
               </div>
             </div>
@@ -158,7 +158,7 @@ export default function Feature() {
                 <h4 className="card-title mb-3 mt-3 text-uppercase">
                 Développement mobile
                 </h4>
-                <p className="card-text">
+                <p className="card-text pb-3">
                 Ne vous laissez pas devancés par vos compétiteurs et laissez nous vous aider afin de bâtir votre site web une version mobile ou encore…
                 </p>
                 <Link href="#" >

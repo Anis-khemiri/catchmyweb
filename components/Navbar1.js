@@ -7,7 +7,7 @@ import styles from '../styles/Navbar.module.css'
   return (
     <div className={styles.navbar}>
    <nav className="navbar d-flex navbar-expand-lg p-3 stiky" >
-  <div className="container-fluid ">
+  <div className="container-fluid">
   <Link href="/"><a className={styles.navbarBrand}>CatchMyWeb</a></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

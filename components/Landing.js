@@ -10,7 +10,7 @@ export default function Landing() {
     <source src="./video.mp4" type="video/mp4"  />       
 </video>
         
-    <div className="text-center text-light">
+    <div className="container text-center text-light">
       <h1>Taste the Creativity</h1>
       
       <p className="fs-6 text-white-50 mb-5">We make awesome graphic and web design</p>

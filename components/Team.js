@@ -5,7 +5,7 @@ export default function Team() {
     <>
      
        <div className="stuff pt-5">
-        <div className="container">
+      
           <div className="main-title text-center mt-5 mb-5 position-relative">
            
             <h2>Some Stuff About Us</h2>
@@ -38,7 +38,7 @@ export default function Team() {
       </div>
             </div>
             </div>
-            </div>
+           
     </>
   )
 }
