@@ -18,7 +18,7 @@ export default function Meeteam() {
           <div className="sectionTeam">
             <FadeIn
               from="right"
-              positionOffset={800}
+              positionOffset={200}
               triggerOffset={200}
               delayInMilliseconds={500}
             >
@@ -38,7 +38,7 @@ export default function Meeteam() {
             </FadeIn>
             <FadeIn
               from="top"
-              positionOffset={800}
+              positionOffset={200}
               triggerOffset={400}
               delayInMilliseconds={400}
             >
@@ -58,8 +58,8 @@ export default function Meeteam() {
             </FadeIn>
             <FadeIn
               from="left"
-              positionOffset={800}
-              triggerOffset={-200}
+              positionOffset={400}
+              triggerOffset={200}
               delayInMilliseconds={600}
             >
               <div className="box bg-white">
