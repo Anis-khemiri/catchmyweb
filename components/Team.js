@@ -33,7 +33,7 @@ export default function Team() {
             </div>
             <div className="col-lg-3 ms-auto">
         <div className="image ">
-          <Image className="img-fluid" src="/project1.png" alt="" width= "400px" height= "400" />
+          {/* <Image className="" src="/project1.png" alt="" width= "400px" height= "400" /> */}
         </div>
       </div>
             </div>
