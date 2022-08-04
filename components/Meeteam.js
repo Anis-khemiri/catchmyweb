@@ -5,7 +5,7 @@ export default function Meeteam() {
   return (
     <>
       <div className="team text-center pb-5 pt-5">
-     
+     <div className="container">
           <h2 className="fw-bold">Meet The Team</h2>
           <p className=" text-black-50 mb-5">
             Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
@@ -24,11 +24,11 @@ export default function Meeteam() {
             >
               <div className="box bg-white">
                 <Image
-                  className="img-fluid imgteam"
+                  className="imgteam"
                   src="/Nagui khallouli.jpg"
                   alt=""
-                  width="400px"
-                  height="400"
+                  width="300px"
+                  height="300"
                 />
                 <h4 className="p-3 text-light">Nagui khallouli</h4>
                 <h6 className="text-black-50 p-3">
@@ -44,11 +44,11 @@ export default function Meeteam() {
             >
               <div className="box bg-white ">
                 <Image
-                  className="img-fluid imgteam"
+                  className="imgteam"
                   src="/khemiri Anis.jpg"
                   alt=""
-                  width="400px"
-                  height="400"
+                  width="300px"
+                  height="300"
                 />
                 <h4 className="p-3 text-light">Khemiri Anis</h4>
                 <h6 className="text-black-50 p-3">
@@ -64,11 +64,11 @@ export default function Meeteam() {
             >
               <div className="box bg-white">
                 <Image
-                  className="img-fluid imgteam"
+                  className="imgteam"
                   src="/Mostafa.jpg"
                   alt=""
-                  width="400px"
-                  height="400"
+                  width="300px"
+                  height="300"
                 />
                 <h4 className="p-3 text-light">Mostafa</h4>
                 <h6 className="text-black-50 p-1">
@@ -77,9 +77,9 @@ export default function Meeteam() {
               </div>
             </FadeIn>
           </div>
-    
+          </div>
       </div>
-      <div className="techs pt-5 pb-5 text-center"></div>
+      
     </>
   );
 }

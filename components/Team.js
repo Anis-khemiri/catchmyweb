@@ -4,8 +4,8 @@ export default function Team() {
   return (
     <>
      
-       <div className="stuff pt-5">
-      
+     <div className="stuff pt-5">
+      <div className="container">
           <div className="main-title text-center mt-5 mb-5 position-relative">
            
             <h2>Some Stuff About Us</h2>
@@ -36,6 +36,7 @@ export default function Team() {
           <Image className="img-fluid" src="/project1.png" alt="" width= "400px" height= "400" />
         </div>
       </div>
+            </div>
             </div>
             </div>
            
