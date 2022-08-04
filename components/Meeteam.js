@@ -22,7 +22,7 @@ export default function Meeteam() {
               triggerOffset={200}
               delayInMilliseconds={500}
             >
-              <div className="box bg-white">
+              <div className="bg-white">
                 <Image
                   className="imgteam"
                   src="/Nagui khallouli.jpg"
@@ -42,7 +42,7 @@ export default function Meeteam() {
               triggerOffset={400}
               delayInMilliseconds={400}
             >
-              <div className="box bg-white ">
+              <div className="bg-white ">
                 <Image
                   className="imgteam"
                   src="/khemiri Anis.jpg"
@@ -62,7 +62,7 @@ export default function Meeteam() {
               triggerOffset={200}
               delayInMilliseconds={600}
             >
-              <div className="box bg-white">
+              <div className="bg-white">
                 <Image
                   className="imgteam"
                   src="/Mostafa.jpg"

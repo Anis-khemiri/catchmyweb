@@ -130,11 +130,11 @@ body {
   transform: translateY(-10px);
   box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
 }
-.animateFadeIn {
+/* .animateFadeIn {
   animation: fade-in linear 300ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.25s; }
+  animation-delay: 0.25s; } */
 /* .more {
   margin-top: 24px;
 } */
