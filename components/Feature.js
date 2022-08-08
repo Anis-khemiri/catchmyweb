@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import {faArrowsToDot} from '@fortawesome/free-solid-svg-icons'
+import {faArrowsToDot} from '@fortawesome/free-solid-svg-icons';
 
 
 

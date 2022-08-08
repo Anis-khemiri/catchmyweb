@@ -411,6 +411,18 @@ body {
  
 
 }
+.cardbg {
+  background-color: #b4c7dbbd;
+  box-shadow: 5px 5px 5px 5px #eee;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+
+}
+.cardbg:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+} 
 .simple-linear {
   background: linear-gradient(blue, pink);
 }
@@ -473,3 +485,51 @@ body {
 .work-box .box:hover::before {
   transform: translateX(0);
 } 
+
+/*team */
+
+.stuff .description {
+  max-width: 600px;
+
+}
+.image {
+
+  border: 2px solid #eee;
+  border-radius: 4px;
+}
+.team .img{
+  position: relative
+}
+
+.team .img .social {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+ 
+}
+.team .img .social .ico {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 5px;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.team .img:hover .social {
+  opacity: 1;
+  transform: translateY(-50px);
+ 
+}
