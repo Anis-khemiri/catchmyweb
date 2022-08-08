@@ -12,3 +12,28 @@
     font-weight: bold;
     text-decoration: none
 }
+.faceIcon {
+    color:blue;
+    margin-right: 10px;
+    
+}
+.faceIcon:hover {
+    color:rgb(149, 149, 161);
+   
+    
+}
+.twitIcon {
+    color:rgb(28, 129, 206);
+    margin-right: 10px
+   
+}
+.twitIcon:hover {
+    color:rgb(173, 180, 186);
+   
+}
+.instaIcon {
+    color:rgb(184, 23, 104)
+}
+.instaIcon:hover {
+    color:rgb(215, 110, 205);
+}

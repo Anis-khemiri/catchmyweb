@@ -15,7 +15,7 @@ const Tabs = () => {
 
   return (
     <Fragment>
-      <ul className="list-unstyled d-flex justify-content-center mt-5 mb-5">
+      <ul className="work-list rounded-pill list-unstyled d-flex justify-content-center mt-5 mb-5">
         <li
           className={`${checkActive('all', 'active')} rounded-pill`}
           onClick={() => handleClick('all')}
@@ -52,12 +52,12 @@ const Tabs = () => {
       {listpro.map((proj) => {
         return (
 
-          <div className="col-sm-6 col-md-4 col-lg-3 cardbg" key={proj.id} >
+          <div className="work-box col-sm-6 col-md-4 col-lg-3 g-3 position-relative" key={proj.id} >
             
-            <FadeIn className="box mb-3" data-work="Application" >
-              <Image src={proj.image} width="296px" height="220px" alt="" />
+            <div className="box mb-3 bg-white" data-work="Preview" >
+              <Image className="img-fluid" src={proj.image} width="296px" height="220px"  alt="" />
               <h4>{proj.name}</h4>
-            </FadeIn>
+            </div>
            
           </div>
       
