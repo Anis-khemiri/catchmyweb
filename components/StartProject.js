@@ -7,7 +7,7 @@ export default function StartProject() {
       <div className="project text-center pt-5 pb-5 text-light">
         <div className="container">
         <h2>Start Your Project Now</h2>
-        <p className="text-white-50">
+        <p className="text-white">
           Leave your description and we start the engine. worry,you can
           cancel anytime
         </p>

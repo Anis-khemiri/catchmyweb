@@ -34,7 +34,7 @@ function Footer1() {
     <div className="container">
       <div className="row">
         <div className="col-md-6 col-lg-4">
-          <div className="info mb-5">
+          <div className="infofooter mb-5">
          
             <p className="mb-5">
               Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
@@ -79,7 +79,7 @@ function Footer1() {
             <ul className="d-flex mt-5 list-unstyled gap-3">
               <li>
                 <a className="d-block text-light" href="#">
-                <i className="fa-brands fa-twitter fa-lg facebook rounded-circle p-2"><AiFillFacebook size="5x" /></i></a>
+                <i className="fa-brands fa-twitter fa-lg facebook rounded-circle p-2"><AiFillFacebook /></i></a>
               </li>
               <li>
                 <a className="d-block text-light" href="#">

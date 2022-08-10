@@ -38,7 +38,7 @@ export default function Team() {
             </div>
             <div className="col-lg-6 ms-auto">
         <div className="image ">
-          <Image className="" src="/team1.jpg" alt="" width= "600" height= "400" />
+          <Image src="/team1.jpg" alt="" width= "600" height= "400" />
         </div>
       </div>
             </div>

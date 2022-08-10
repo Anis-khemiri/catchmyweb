@@ -6,6 +6,7 @@ import StartProject from './../components/StartProject';
 import Blog from './../components/Blog';
 import Landing from './../components/Landing';
 import Feature from './../components/Feature';
+import Technology from '../components/Technology';
 
 
 
@@ -24,6 +25,8 @@ export default function Home() {
     {/* meet team */}
 
     <Meeteam />
+
+    <Technology />
     {/* start project */}
     <StartProject />
     {/* blog */}

@@ -1,7 +1,8 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { FadeIn } from 'react-slide-fade-in';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faSquareInstagram} from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faTwitter, faSquareInstagram} from '@fortawesome/free-brands-svg-icons';
 
 import { faArrowsToDot } from '@fortawesome/free-solid-svg-icons';
 
@@ -27,47 +28,77 @@ export default function Meeteam() {
           <div className="col-lg-4 col-md-6 ">
             <div className="item md-mb50">
               <div className="img">
-              <Image src="/t1.jpg" width="400" height="400" alt=" " />
+              <Image src="/t1.jpg" width="400" height="400" alt=" " className="imgteam" />
               <div className="social">
-            <FontAwesomeIcon icon={faFacebook} className="ico me-1" />
-<FontAwesomeIcon icon={faTwitter}  className="ico me-1" />
-<FontAwesomeIcon icon={faSquareInstagram}  className="ico me-1" />
-            
-            </div>
-              </div>
-          </div>
-           
-            
-          </div>
-          <div className="col-lg-4 col-md-6 ">
-            <div className="item md-mb50">
-              <div className="img">
-              <Image src="/t2.jpg" width="400" height="400" alt=" " />
-              <div className="social">
-            <FontAwesomeIcon icon={faFacebook} className="ico me-1" />
-<FontAwesomeIcon icon={faTwitter}  className="ico me-1" />
-<FontAwesomeIcon icon={faSquareInstagram}  className="ico me-1" />
-            
-            </div>
-              </div>
-          </div>
-           
-            
-          </div>
-          <div className="col-lg-4 col-md-6 ">
-            <div className="item md-mb50">
-              <div className="img">
-              <Image src="/t3.jpg" width="400" height="400" alt=" " />
-              <div className="social">
-            <FontAwesomeIcon icon={faFacebook} className="ico me-1" />
-<FontAwesomeIcon icon={faTwitter}  className="ico me-1" />
-<FontAwesomeIcon icon={faSquareInstagram}  className="ico me-1" />
+              <Link href="#">
+               <a className="boxIcon"><FontAwesomeIcon icon={faFacebookF} className="ico me-1" Size="sm" /></a> 
+                </Link>
+                <Link href="#">
+               <a className="boxIcon"><FontAwesomeIcon icon={faTwitter} className="ico me-1" Size="sm" /></a> 
+                </Link>
+                <Link href="#">
+               <a className="boxIcon"><FontAwesomeIcon icon={faSquareInstagram} className="ico me-1" Size="sm" /></a> 
+                </Link>
             
             </div>
               </div>
               <div className="info text-center">
                 <h6 className="mb-5 fw-600"> Anis khemiri</h6>
-                <span className="fz-15">Frontend</span>
+                <span className="fz-20 ">Frontend</span>
+
+              </div>
+          </div>
+           
+            
+          </div>
+          <div className="col-lg-4 col-md-6 ">
+            <div className="item md-mb50">
+              <div className="img">
+              <Image src="/t2.jpg" width="400" height="400" alt=" " className="imgteam" />
+              <div className="social">
+              <Link href="#">
+               <a className="boxIcon"><FontAwesomeIcon icon={faFacebookF} className="ico me-1" Size="sm" /></a> 
+                </Link>
+                <Link href="#">
+               <a className="boxIcon"><FontAwesomeIcon icon={faTwitter} className="ico me-1" Size="sm" /></a> 
+                </Link>
+                <Link href="#">
+               <a className="boxIcon"><FontAwesomeIcon icon={faSquareInstagram} className="ico me-1" Size="sm" /></a> 
+                </Link>
+            
+            </div>
+              </div>
+              <div className="info text-center">
+                <h6 className="mb-5 fw-600"> Anis khemiri</h6>
+                <span className="fz-20 ">Frontend</span>
+
+              </div>
+          </div>
+           
+            
+          </div>
+          <div className="col-lg-4 col-md-6 ">
+            <div className="item md-mb50">
+              <div className="img">
+              <Image src="/t3.jpg" width="400" height="400" alt="" className="imgteam" />
+              <div className="social">
+                <Link href="#">
+               <a className="boxIcon"><FontAwesomeIcon icon={faFacebookF} className="ico me-1" Size="sm" /></a> 
+                </Link>
+                <Link href="#">
+               <a className="boxIcon"><FontAwesomeIcon icon={faTwitter} className="ico me-1" Size="sm" /></a> 
+                </Link>
+                <Link href="#">
+               <a className="boxIcon"><FontAwesomeIcon icon={faSquareInstagram} className="ico me-1" Size="sm" /></a> 
+                </Link>
+            
+
+            
+            </div>
+              </div>
+              <div className="info text-center">
+                <h6 className="mb-5 fw-600"> Anis khemiri</h6>
+                <span className="fz-20 ">Frontend</span>
 
               </div>
           </div>
