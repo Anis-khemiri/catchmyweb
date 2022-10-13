@@ -114,9 +114,9 @@ export default function Feature() {
               </div>
             </div>
             <div className="card cardbg col-md-6 col-lg-3">
-              <div className="imgs mt-3">
-                <Image
-                  src="/erp.jpg"
+              <div className="imgs mt-3 ">
+                <Image className='rounded-circle'
+                  src="/ERP.png"
                   width="80"
                   height="80"
                   alt="ecommerce"
@@ -136,7 +136,7 @@ export default function Feature() {
             </div>
             <div className="card cardbg col-md-6 col-lg-3">
               <div className="imgs mt-3">
-                <Image
+                <Image className="rounded-circle"
                   src="/crm.png"
                   width="80"
                   height="80"

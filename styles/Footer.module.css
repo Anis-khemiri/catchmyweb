@@ -6,9 +6,18 @@
   }
 
 .copyright {
-    background-color: rgba(32, 18, 18, 1);
-}
 
+    background-color: rgba(32, 18, 18, 1);
+
+}
+@media (max-width: 767px) {
+    .copyright {
+        position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(50%);
+    }
+}
 
 .btncon {
     background-color: antiquewhite;

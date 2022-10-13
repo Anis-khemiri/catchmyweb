@@ -32,7 +32,7 @@ function Footer1() {
     </div>
   </div><div className="footer pt-5 pb-5 text-white-50 text-center text-md-start">
     <div className="container">
-      <div className="row">
+      <div className="row position-relative">
         <div className="col-md-6 col-lg-4">
           <div className="infofooter mb-5">
          
@@ -76,23 +76,23 @@ function Footer1() {
             <h5 className="text-light">Contact Us</h5>
             <p className="lh-lg mt-3 mb-5">Get in touch with us via mail phone.We are waiting for your call or message</p>
             <Link href="#"><a className="btn rounded-pill main-btn w-100 btncon" >conatct@catchmyweb.com</a></Link>
-            <ul className="d-flex mt-5 list-unstyled gap-3">
+            <ul className="d-flex justify-content-center mt-2 mb-4 list-unstyled gap-3">
               <li>
                 <a className="d-block text-light" href="#">
-                <i className="fa-brands fa-twitter fa-lg facebook rounded-circle p-2"><AiFillFacebook /></i></a>
+                <i className="fa-brands fa-2x facebook rounded-circle p-2"><AiFillFacebook /></i></a>
               </li>
               <li>
                 <a className="d-block text-light" href="#">
-                <i className="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"><AiFillTwitterCircle /></i></a>
+                <i className="fa-brands fa-twitter fa-2x twitter rounded-circle p-2"><AiFillTwitterCircle /></i></a>
           
               </li>
               <li>
                 <a className="d-block text-light" href="#">
-                <i className=" linkedin rounded-circle p-2"><AiFillLinkedin /></i></a>
+                <i className=" linkedin fa-2x rounded-circle p-2"><AiFillLinkedin /></i></a>
               </li>
               <li>
                 <a className="d-block text-light" href="#">
-                <i className=" instagram rounded-circle p-2"><AiFillInstagram /></i></a>
+                <i className=" instagram fa-2x rounded-circle p-2"><AiFillInstagram /></i></a>
               </li>
             </ul>
           </div>

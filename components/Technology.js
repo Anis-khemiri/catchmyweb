@@ -16,7 +16,7 @@ export default function Technology() {
             </p>
           </div>
 
-<div className="row">
+<div className="row gap-auto">
 <div className="col-sm-6 col-md-4 col-lg-3">
     <Image src="/js.png" width="100" height="100" alt="" />
 </div>
