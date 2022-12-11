@@ -1,3 +1,4 @@
+import Background from './Background';
 import Footer1 from './Footer1';
 
 import Navbar1 from './Navbar1';
@@ -7,8 +8,7 @@ function Layout({children}) {
     <div>
       <Navbar1 />
     
-
-      {children}
+{children}
       <Footer1 />
     </div>
   );

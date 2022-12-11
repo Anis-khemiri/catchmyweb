@@ -14,24 +14,24 @@ export default function Home() {
   return (
 
     <div>
-    {/* ladding */}
+    
     <Landing />
-    {/* feature */}
+    
 
     <Feature />
     <Works />
 
     <Team />
-    {/* meet team */}
+    
 
     <Meeteam />
 
     <Technology />
-    {/* start project */}
+    
     <StartProject />
-    {/* blog */}
+  
     <Blog />
-    {/* Subscribe to our Newsletter: */}
+    
 
 
   </div>

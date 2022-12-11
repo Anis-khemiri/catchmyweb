@@ -3,15 +3,13 @@ import React from 'react'
 import styles from '../styles/Landing.module.css'
 
 
+
 export default function Landing() {
   return (
     <>
     <div className="landing d-flex justify-content-center align-items-center">
-  
-  <video loop muted autoPlay className="video">         
-    <source src="./video.mp4" type="video/mp4"  />       
-</video>
-        
+
+    
     <div className="text-center justify-content-center align-items-center text-light">
       <h1>Taste the Creativity</h1>
       

@@ -2,100 +2,89 @@
     projects : [
     
    
-          {
+        
+        {
                 
-                name: "Nike Slim Shirt",
-                category: 'Shirts',
+            name: 'Portfolio',
+            slug: 'Portfolio',
+           
             image: '/project1.png',
-                price: 320,
-                countInStock: 50,
-                brand: 'Nike',
-                rating: 2.5,
-                numReviews: 10,
-                description: ['all','design'],
-            },
-            {
-               
-                name: 'Adidas Fit Shirt',
-                category: 'Shirts',
-                image: '/project2.png',
-                price: 120,
-                countInStock: 20,
-                brand: 'Adidas',
-                rating: 4.5,
-                numReviews: 10,
-                description: ['all','app'],
-            },
-            {
-               
-                name: 'Lacost Free Shirt',
-                category: 'Shirts',
-                image: '/project3.png',
-                price: 220,
-                countInStock: 0,
-                brand: 'Lacoste',
-                rating: 4.8,
-                numReviews: 17,
-                description: ['all','design'],
-            },
-            {
-                
-                name: 'Niko Slim Shirt',
-                category: 'Pants',
-                image: '/project4.png',
-                price: 78,
-                countInStock: 10,
-                brand: 'Nike',
-                rating: 4.5,
-                numReviews: 14,
-                description: ['all','design'],
-            },
-            {
-               
-                name: 'Puma Slim Pant',
-                category: 'Pants',
-                image: '/project5.png',
-                price: 65,
-                countInStock: 45,
-                brand: 'Puma',
-                rating: 4.5,
-                numReviews: 10,
-                description: ['all','design'],
-            },
-            {
-              
-                name: 'Adidas Fit Pants',
-                category: 'Pants',
-                image: '/project6.png',
-                price: 80,
-                countInStock: 10,
-                brand: 'Adidas',
-                rating: 4.5,
-                numReviews: 10,
-                description: ['all', 'photo']
-            },
-             {   name: 'Adidas Fit Pants',
-                category: 'Pants',
-                image: '/project6.png',
-                price: 80,
-                countInStock: 10,
-                brand: 'Adidas',
-                rating: 4.5,
-                numReviews: 10,
-                description: ['all','design'],
-            },
-            {
-                name: 'Adidas Fit Pants',
-                category: 'Pants',
-                image: '/project2.png',
-                price: 80,
-                countInStock: 10,
-                brand: 'Adidas',
-                rating: 4.5,
-                numReviews: 10,
-                description: ['all','code'],
-            }
+            overview: 'site web for agence web',
+            description: ['all','design'],
+            link: 'https://myportfolio-23595.web.app/'
+        },
+        {
+           
+            name: 'creative',
+            slug: 'creative',
+          
+            image: '/project2.png',
             
+         
+            overview: 'site web for agence web',
+            description: ['all','app'],
+            link: 'https://anis-landing.netlify.app/'
+        },
+        {
+           
+            name: 'Landing page',
+            slug: 'Landing-page',
+            
+            image: '/project3.png',
+            overview: 'site web for agence web',
+            description: ['all','design'],
+            link: 'https://landing-classic.netlify.app/'
+        },
+        {
+            
+            name: 'Dashboard',
+            slug: 'dashboard',
+       
+            image: '/project4.png',
+            overview: 'site web for agence web',
+            description: ['all','design'],
+            link: 'https://anis-dashboard.netlify.app'
+        },
+        {
+           
+            name: 'Landing',
+            slug: 'landing',
+        
+            image: '/project5.png',
+            overview: 'site web for agence web',
+            description: ['all','design'],
+            link: 'https://anis-landing-page.netlify.app/'
+        },
+        
+        {
+            name: 'Quize app',
+            slug: 'quize-app',
+            image: '/project8.png',
+            overview: 'site web for agence web',
+            description: ['all','code'],
+            link: 'https://app-quize.netlify.app/'
+        },
+        {
+            name: 'Market Day',
+            slug: 'market-day',
+         
+            image: '/project9.png',
+            overview: 'site web for agence web',
+            description: ['all','code'],
+            link: 'https://market-day.herokuapp.com/'
+        },
+       
+        {
+            name: 'catchmyweb',
+            slug: 'catchmyweb',
+         
+            image: '/project12.png',
+            overview: 'site web for agence web',
+    
+            description: ['all','code'],
+            link: 'https://catchmyweb.vercel.app/'
+        }
+        
         ],
     
 };

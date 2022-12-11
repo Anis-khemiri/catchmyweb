@@ -18,6 +18,9 @@
 .navbar .navbar-nav .nav-link:hover {
   color: var(--green-color);
 }
+html {
+  scroll-behavior: smooth;
+}
 /* a:hover {
   color: var(--green-color);
 }; */
@@ -143,6 +146,7 @@
   font-size: 2rem;
   transition: 0.3s;
   transform: translateX(calc(-100% - 5px));
+  cursor: pointer;
 }
 
 .work-box .box:hover::before {

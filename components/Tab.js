@@ -1,4 +1,5 @@
 import React, { Fragment, useState } from 'react';
+import Link from 'next/link';
 import FadeIn from 'react-fade-in';
 import dataPortfolio from './data/dataPortfolio';
 import Image from 'next/image';
@@ -53,12 +54,14 @@ const Tabs = () => {
         return (
 
           <div className="work-box col-sm-6 col-md-4 col-lg-3 g-3 position-relative" key={proj.id} >
-            
+            <a href={proj.link} target="_blank" rel="noopener noreferrer">
             <div className="box mb-3 bg-white" data-work="Preview" >
+            
               <Image className="img-fluid" src={proj.image} width="296px" height="220px"  alt="" />
               <h4>{proj.name}</h4>
+         
             </div>
-           
+            </a>
           </div>
       
       

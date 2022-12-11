@@ -69,8 +69,8 @@ export default function Meeteam() {
             </div>
               </div>
               <div className="info text-center">
-                <h6 className="mb-5 fw-600"> Anis khemiri</h6>
-                <span className="fz-20 ">Frontend</span>
+                <h6 className="mb-5 fw-600"> Nagui</h6>
+                <span className="fz-20 ">UX Design</span>
 
               </div>
           </div>
@@ -97,8 +97,8 @@ export default function Meeteam() {
             </div>
               </div>
               <div className="info text-center">
-                <h6 className="mb-5 fw-600"> Anis khemiri</h6>
-                <span className="fz-20 ">Frontend</span>
+                <h6 className="mb-5 fw-600"> Oday</h6>
+                <span className="fz-20 ">Backend</span>
 
               </div>
           </div>
