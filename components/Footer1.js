@@ -36,10 +36,10 @@ function Footer1() {
         <div className="col-md-6 col-lg-4">
           <div className="infofooter mb-5">
          
-            <p className="mb-5">
-              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
-              convallis at tellus.
-            </p>
+            <div className="mb-5">
+              <p>Bizerte-7021-TUNISIA</p>
+              <p>PHONE : 216 24 317 720/ +21697442612</p>
+            </div>
             <div className="copyright">
               Created By <span>Agency</span>
               <div>&copy; 2022 - <span>CatchMyWeb</span></div>

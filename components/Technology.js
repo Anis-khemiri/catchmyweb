@@ -12,35 +12,28 @@ export default function Technology() {
           <FontAwesomeIcon icon={faArrowsToDot} className="mainIcon mt-3 mb-5" />
             <h2 className="text-dark">Our Tech Stack</h2>
             <p className="text-dark text-uppercase">
-              We solve it problems with technology 
+              We solve problems with technology 
             </p>
           </div>
 
 <div className="row gap-auto">
-<div className="col-sm-6 col-md-4 col-lg-3">
+<div className="col-sm-6 col-md-2 col-lg-2">
     <Image src="/js.png" width="100" height="100" alt="" />
 </div>
-<div className="col-sm-6 col-md-4 col-lg-3">
+<div className="col-sm-6 col-md-2 col-lg-2">
     <Image src="/vue.png" width="100" height="100" alt="" />
 </div>
-<div className="col-sm-6 col-md-4 col-lg-3">
+<div className="col-sm-6 col-md-2 col-lg-2">
     <Image src="/react.png" width="100" height="100" alt="" />
 </div>
-<div className="col-sm-6 col-md-4 col-lg-3">
+<div className="col-sm-6 col-md-2 col-lg-2">
     <Image src="/redux.png" width="100" height="100" alt="" />
 </div>
-<div className="col-sm-6 col-md-4 col-lg-3">
+<div className="col-sm-6 col-md-2 col-lg-2">
     <Image src="/angu.png" width="100" height="100" alt="" />
 </div>
-<div className="col-sm-6 col-md-4 col-lg-3">
-    <Image src="/angu.png" width="100" height="100" alt="" />
-</div>
-<div className="col-sm-6 col-md-4 col-lg-3">
-    <Image src="/dart.png" width="100" height="100" alt="" />
-</div>
-<div className="col-sm-6 col-md-4 col-lg-3">
-    <Image src="/angu.png" width="100" height="100" alt="" />
-</div>
+
+
 
 </div>
 

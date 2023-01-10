@@ -6,6 +6,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+      
+        <meta name="description" content="agency for create website" /> 
           <link
             href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
             rel="stylesheet"

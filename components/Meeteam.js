@@ -17,10 +17,7 @@ export default function Meeteam() {
           />
           <h2 className="fw-bold">Meet The Team</h2>
           <p className=" text-light mb-5">
-            Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
-            eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
-            dapibus. Proin eget tortor risus. Donec sollicitudin molestie
-            malesuada.
+          Hand in hand to meet a common challenge
           </p>
         </div>
 

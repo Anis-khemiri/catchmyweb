@@ -10,8 +10,18 @@
            
             image: '/project1.png',
             overview: 'site web for agence web',
-            description: ['all','design'],
+            description: ['all','portfolio'],
             link: 'https://myportfolio-23595.web.app/'
+        },
+        {
+                
+            name: 'Portfolio2',
+            slug: 'Portfolio2',
+           
+            image: '/project6.png',
+            overview: 'site web for agence web',
+            description: ['all','portfolio'],
+            link: 'https://portfolio-8a1c9.web.app/'
         },
         {
            
@@ -22,7 +32,7 @@
             
          
             overview: 'site web for agence web',
-            description: ['all','app'],
+            description: ['all','showcase'],
             link: 'https://anis-landing.netlify.app/'
         },
         {
@@ -32,7 +42,7 @@
             
             image: '/project3.png',
             overview: 'site web for agence web',
-            description: ['all','design'],
+            description: ['all','showcase'],
             link: 'https://landing-classic.netlify.app/'
         },
         {
@@ -42,7 +52,7 @@
        
             image: '/project4.png',
             overview: 'site web for agence web',
-            description: ['all','design'],
+            description: ['all','showcase'],
             link: 'https://anis-dashboard.netlify.app'
         },
         {
@@ -61,7 +71,7 @@
             slug: 'quize-app',
             image: '/project8.png',
             overview: 'site web for agence web',
-            description: ['all','code'],
+            description: ['all','app'],
             link: 'https://app-quize.netlify.app/'
         },
         {
@@ -70,8 +80,8 @@
          
             image: '/project9.png',
             overview: 'site web for agence web',
-            description: ['all','code'],
-            link: 'https://market-day.herokuapp.com/'
+            description: ['all','ecommerce'],
+            link: 'https://market-day-gm7e.onrender.com/'
         },
        
         {
@@ -81,8 +91,8 @@
             image: '/project12.png',
             overview: 'site web for agence web',
     
-            description: ['all','code'],
-            link: 'https://catchmyweb.vercel.app/'
+            description: ['all','showcase'],
+            link: 'https://catchmyweb-3336b.web.app/'
         }
         
         ],

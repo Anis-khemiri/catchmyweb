@@ -8,7 +8,7 @@ module.exports = nextConfig
 module.exports = {
   experimental: {
     images: {
-      optimized: true,
+      unoptimized: true,
     },
   },
 }

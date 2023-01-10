@@ -3,7 +3,16 @@
 
 
 .navbar {
-    background-color: rgb(206, 198, 198);
+    /* background-color: rgb(206, 198, 198); */
+    background-color: rgb(116 186 205 / 25%);
+
+    width: 100%;
+    position: sticky;
+  top: 0;
+  z-index: 1100;
+  color: black;
+  
+    
 }
 
 .navbarBrand {

@@ -34,12 +34,10 @@ export default function Feature() {
               </div>
               <div className="card-body feat">
                 <h4 className="card-title mb-3 mt-3 text-uppercase">
-                  Site E-commerce
+                E-commerce website
                 </h4>
                 <p className="card-text pb-4">
-                  Pour une meilleure expérience client, nous concevons des sites
-                  e-Commerce selon une approche qui met les besoins des
-                  utilisateurs au centre de nos préoccupations.
+                For a better customer experience, we design e-Commerce sites using an approach that puts user needs at the center of our concerns
                 </p>
                 <Link href="#">
                   <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3 ">En savoir plus</a>
@@ -57,12 +55,12 @@ export default function Feature() {
               </div>
               <div className="card-body feat">
                 <h4 className="card-title mb-3 mt-3 text-uppercase">
-                  Site web vitrine
+                  Showcase website
                 </h4>
                 <p className="card-text pb-4">
-                  Pour une meilleure expérience client, nous concevons des sites
-                  e-Commerce selon une approche qui met les besoins des
-                  utilisateurs au centre de nos préoccupations.
+                present the products and services of your activity 
+                in order to provide an online presence and acquire 
+                contacts, prospects and customers via the Internet.
                 </p>
                 <Link href="#" className="card-footer">
                   <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
@@ -80,11 +78,11 @@ export default function Feature() {
               </div>
               <div className="card-body feat ">
                 <h4 className="card-title mb-3 mt-3 text-uppercase">
-                  Référencement web
+                  SEO
                 </h4>
                 <p className="card-text pb-4">
-                  Nos experts vous accompagnent pour améliorer la visibilité de
-                  votre site dans les moteurs de recherche.
+                Our experts support you to improve the visibility of your site in search engines.
+                 In short, it is SEO either organic or sponsored
                 </p>
                 <Link href="#" className="card-footer">
                   <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
@@ -102,11 +100,11 @@ export default function Feature() {
               </div>
               <div className="card-body feat">
                 <h4 className="card-title mb-3 mt-3 text-uppercase">
-                  Community Management
+                 COMMUNITY MANAGEMENT
                 </h4>
                 <p className="card-text pb-4">
-                  Confiez-nous la rédaction de vos contenus visuels et
-                  rédactionnels pour vos réseaux sociau
+                Entrust us with the writing of your visual and editorial content for your social networks in order to promote your 
+                products and services
                 </p>
                 <Link href="#">
                   <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
@@ -127,7 +125,7 @@ export default function Feature() {
                 ERP
                 </h4>
                 <p className="card-text pb-4">
-                Nous concevons des solutions pour centraliser vos données et gérer votre entreprise (ventes, management, production, comptabilité, logistique, RH…).
+                We design solutions to centralize your data and manage your business (sales, management, production, accounting, logistics, HR, etc.).
                 </p>
                 <Link href="#">
                   <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
@@ -145,10 +143,10 @@ export default function Feature() {
               </div>
               <div className="card-body feat">
                 <h4 className="card-title mb-3 mt-3 text-uppercase">
-                 CRM
+               DIGITAL MARKETING
                 </h4>
                 <p className="card-text pb-4">
-                Un CRM (Customer Relation Management ou Logiciel de Gestion de la Relation Client) est un outil qui aide les entreprises à mettre en place
+                We go where your audience and your customers are to promote your brands, your services and your goods to consumers. In a word… we generate your sales
                 </p>
                 <Link href="#">
                   <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
@@ -166,10 +164,10 @@ export default function Feature() {
               </div>
               <div className="card-body feat ">
                 <h4 className="card-title mb-3 mt-3 text-uppercase">
-                Développement mobile
+               MOBILE DEVELOPPEMENT
                 </h4>
                 <p className="card-text pb-4">
-                Ne vous laissez pas devancés par vos compétiteurs et laissez nous vous aider afin de bâtir votre site web une version mobile ou encore…
+                Dont let your competitors get ahead of you and let us help you build your website, a mobile version or even…
                 </p>
                 <Link href="#" >
                   <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
@@ -187,10 +185,11 @@ export default function Feature() {
               </div>
               <div className="card-body feat">
                 <h4 className="card-title mb-3 mt-3 text-uppercase">
-                Développement sur mesure
+              CUSTOM DEVELOPPMENT
                 </h4>
                 <p className="card-text pb-4">
-                Un site web sur mesure est un support de communication incontournable. Il vous donne une identification personnalisée avec un développement adapté à votre infrastructure existante.
+                A tailor-made website is an essential communication medium. It gives you a personalized identification with a development adapted to your existing infrastructure.
+
                 </p>
                 <Link href="#">
                   <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>

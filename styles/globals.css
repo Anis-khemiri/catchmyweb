@@ -10,7 +10,7 @@
 
 /*navbar*/
 .navbar .navbar-nav .nav-link {
-  color: white;
+  color: var(--dark-color);
   scroll-behavior: smooth;
 }
 .navbar .navbar-nav .nav-link.active,
@@ -21,9 +21,7 @@
 html {
   scroll-behavior: smooth;
 }
-/* a:hover {
-  color: var(--green-color);
-}; */
+
 
 .socialIcon {
   border-left: 1px solid #eee;
@@ -69,20 +67,15 @@ html {
   left: 50%;
   transform: translateX(-50%);
 }
-.main-title {
-}
+
 .mainIcon {
   color: #e0e523;
   width: 70px;
   height: 70px;
 }
 
-/*feature*/
-.imgs {
-}
 
-.buttonPlus {
-}
+
 .cardbg {
   background-color: #b4c7dbbd;
   box-shadow: 5px 5px 5px 5px #eee;
@@ -109,21 +102,40 @@ html {
 .our-work {
   background-color: var(--section-color);
 }
+.work-list {
+  background-color: #12aefb;
+font-size: 16px;
+}
+
+@media (max-width: 762px) {
+  .work-list {
+  font-size: 12px;
+  }
+}
+@media (max-width: 500px) {
+  .work-list {
+  font-size: 10px;
+  }
+}
+@media (max-width: 250px) {
+  .work-list {
+  font-size: 6px;
+  }
+}
 .work-list li {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   cursor: pointer;
 }
+
 .work-list .active {
   background: linear-gradient(to right, blue, pink);
 }
 .work-list li:not(.active):hover {
   color: var(--red-color);
 }
-.work-list {
-  background-color: #12aefb;
-}
+
 .work-box .box {
-  /* padding: 5px; */
+
   overflow: hidden;
   position: relative;
   background-color: #907f9b40;

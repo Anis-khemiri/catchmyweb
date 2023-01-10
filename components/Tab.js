@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from 'react';
-import Link from 'next/link';
-import FadeIn from 'react-fade-in';
+
 import dataPortfolio from './data/dataPortfolio';
 import Image from 'next/image';
 const Tabs = () => {
@@ -24,29 +23,29 @@ const Tabs = () => {
           ALL
         </li>
         <li
-          className={`${checkActive('design', 'active')} rounded-pill`}
-          onClick={() => handleClick('design')}
+          className={`${checkActive('ecommerce', 'active')} rounded-pill`}
+          onClick={() => handleClick('ecommerce')}
         >
-          Design
+          ECOMMERCE
         </li>
 
         <li
-          className={` ${checkActive('code', 'active')} rounded-pill`}
-          onClick={() => handleClick('code')}
+          className={` ${checkActive('showcase', 'active')} rounded-pill`}
+          onClick={() => handleClick('showcase')}
         >
-          Code
+         SHOWCASE
         </li>
         <li
-          className={` ${checkActive('photo', 'active')} rounded-pill`}
-          onClick={() => handleClick('photo')}
+          className={` ${checkActive('portfolio', 'active')} rounded-pill`}
+          onClick={() => handleClick('portfolio')}
         >
-          Photo
+          PORTFOLIO
         </li>
         <li
           className={` ${checkActive('app', 'active')} rounded-pill`}
           onClick={() => handleClick('app')}
         >
-          App
+          APP
         </li>
       </ul>
       
