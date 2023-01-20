@@ -1,10 +1,10 @@
 import React from 'react'
-import Blog from '../components/Blog'
+import Blogc from '../components/Blogc.js'
 
-export default function blog() {
+export default function Blog() {
   return (
     <div>
-      <Blog />
+      <Blogc />
     </div>
   )
 }

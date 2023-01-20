@@ -25,17 +25,14 @@ export default function Meeteam() {
           <div className="col-lg-4 col-md-6 ">
             <div className="item md-mb50">
               <div className="img">
-              <Image src="/t1.jpg" width="400" height="400" alt=" " className="imgteam" />
+              <Image src="/t1.jpg" width={350} height={350} priority={true} layout="responsive" alt="team" className="imgteam" />
               <div className="social">
-              <Link href="#">
-               <a className="boxIcon"><FontAwesomeIcon icon={faFacebookF} className="ico me-1" Size="sm" /></a> 
-                </Link>
-                <Link href="#">
-               <a className="boxIcon"><FontAwesomeIcon icon={faTwitter} className="ico me-1" Size="sm" /></a> 
-                </Link>
-                <Link href="#">
-               <a className="boxIcon"><FontAwesomeIcon icon={faSquareInstagram} className="ico me-1" Size="sm" /></a> 
-                </Link>
+              <li className="boxIcon"><FontAwesomeIcon icon={faFacebookF} className="ico me-1" Size="sm" />
+                </li>
+                <li className="boxIcon"><FontAwesomeIcon icon={faTwitter} className="ico me-1" Size="sm" />
+                </li>
+                <li className="boxIcon"><FontAwesomeIcon icon={faSquareInstagram} className="ico me-1" Size="sm" /> 
+                </li>
             
             </div>
               </div>
@@ -51,17 +48,14 @@ export default function Meeteam() {
           <div className="col-lg-4 col-md-6 ">
             <div className="item md-mb50">
               <div className="img">
-              <Image src="/t2.jpg" width="400" height="400" alt=" " className="imgteam" />
+              <Image src="/t2.jpg" width={350} height={350} priority={true} layout="responsive" alt="team" className="imgteam" />
               <div className="social">
-              <Link href="#">
-               <a className="boxIcon"><FontAwesomeIcon icon={faFacebookF} className="ico me-1" Size="sm" /></a> 
-                </Link>
-                <Link href="#">
-               <a className="boxIcon"><FontAwesomeIcon icon={faTwitter} className="ico me-1" Size="sm" /></a> 
-                </Link>
-                <Link href="#">
-               <a className="boxIcon"><FontAwesomeIcon icon={faSquareInstagram} className="ico me-1" Size="sm" /></a> 
-                </Link>
+              <li className="boxIcon"><FontAwesomeIcon icon={faFacebookF} className="ico me-1" size="sm" /> 
+                </li>
+                <li className="boxIcon"><FontAwesomeIcon icon={faTwitter} className="ico me-1" size="sm" /> 
+                </li>
+                <li className="boxIcon"><FontAwesomeIcon icon={faSquareInstagram} className="ico me-1" size="sm" /> 
+                </li>
             
             </div>
               </div>
@@ -77,17 +71,14 @@ export default function Meeteam() {
           <div className="col-lg-4 col-md-6 ">
             <div className="item md-mb50">
               <div className="img">
-              <Image src="/t3.jpg" width="400" height="400" alt="" className="imgteam" />
+              <Image src="/t3.jpg" width={350} height={350} priority={true} layout="responsive" alt="team" className="imgteam" />
               <div className="social">
-                <Link href="#">
-               <a className="boxIcon"><FontAwesomeIcon icon={faFacebookF} className="ico me-1" Size="sm" /></a> 
-                </Link>
-                <Link href="#">
-               <a className="boxIcon"><FontAwesomeIcon icon={faTwitter} className="ico me-1" Size="sm" /></a> 
-                </Link>
-                <Link href="#">
-               <a className="boxIcon"><FontAwesomeIcon icon={faSquareInstagram} className="ico me-1" Size="sm" /></a> 
-                </Link>
+                <li className="boxIcon"><FontAwesomeIcon icon={faFacebookF} className="ico me-1" /> 
+                </li>
+                <li className="boxIcon"><FontAwesomeIcon icon={faTwitter} className="ico me-1"  /> 
+                </li>
+                <li className="boxIcon"><FontAwesomeIcon icon={faSquareInstagram} className="ico me-1" /> 
+                </li>
             
 
             
@@ -95,7 +86,7 @@ export default function Meeteam() {
               </div>
               <div className="info text-center">
                 <h6 className="mb-5 fw-600"> Oday</h6>
-                <span className="fz-20 ">Backend</span>
+                <span className="fz-20">Backend</span>
 
               </div>
           </div>

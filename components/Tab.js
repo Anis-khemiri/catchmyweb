@@ -1,3 +1,4 @@
+
 import React, { Fragment, useState } from 'react';
 
 import dataPortfolio from './data/dataPortfolio';
@@ -56,7 +57,7 @@ const Tabs = () => {
             <a href={proj.link} target="_blank" rel="noopener noreferrer">
             <div className="box mb-3 bg-white" data-work="Preview" >
             
-              <Image className="img-fluid" src={proj.image} width="296px" height="220px"  alt="" />
+              <Image className="img-fluid" src={proj.image} width={296} height={220} priority={true} alt="" />
               <h4>{proj.name}</h4>
          
             </div>

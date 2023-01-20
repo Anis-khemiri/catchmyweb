@@ -18,7 +18,7 @@ export default function Blog() {
           <div className="row">
             <div className="col-md-6 col-lg-4">
               <div className="card">
-              <Image src="/speed.jpg" width="200px" height="200px" 
+              <Image src="/speed.jpg" width={200} height={200}
                   className="card-img-top"
                   alt="Blog Post"
                 />
@@ -30,7 +30,7 @@ export default function Blog() {
             </div>
             <div className="col-md-6 col-lg-4">
               <div className="card">
-                 <Image src="/optimiser-site-seo.jpg" width="200px" height="200px" 
+                 <Image src="/optimiser-site-seo.jpg" width={200} height={200} 
                   className="card-img-top"
                   alt="Blog Post"
                 />
@@ -42,7 +42,7 @@ export default function Blog() {
             </div>
             <div className="col-md-6 col-lg-4">
               <div className="card">
-              <Image src="/digital.jpg" width="200px" height="200px" 
+              <Image src="/digital.jpg" width={200} height={200}
                   className="card-img-top"
                   alt="Blog Post"
                 />

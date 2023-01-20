@@ -16,17 +16,17 @@ function Footer1() {
 <>
     <div className="subscribe pt-5 pb-5 text-center text-md-start">
     <div className="container">
-      <form className="row align-items-center">
+      <form className="row form-footer align-items-center">
         <div className="col-md-6 col-lg-3">
           <div className="fw-bold fs-5 mb-3">Subscribe to our Newsletter:</div>
         </div>
 
-        {/* contact */}
+       
         <div className="col-md-6 col-lg-7 mb-3">
           <input className="w-100 text-light p-2 bg-transparent" type="text" placeholder="Enter Email Address" />
         </div>
         <div className="col-md-6 col-lg-2">
-          <input className="btn rounded-pill" type="submit" value="Subscribe" />
+          <input className="btn btn-submit rounded-pill" type="submit" value="Subscribe" />
         </div>
       </form>
     </div>
@@ -75,24 +75,20 @@ function Footer1() {
           <div className="contact">
             <h5 className="text-light">Contact Us</h5>
             <p className="lh-lg mt-3 mb-5">Get in touch with us via mail phone.We are waiting for your call or message</p>
-            <Link href="#"><a className="btn rounded-pill main-btn w-100 btncon" >conatct@catchmyweb.com</a></Link>
+            <Link href="#" className="btn rounded-pill main-btn w-100 btncon" >conatct@catchmyweb.com</Link>
             <ul className="d-flex justify-content-center mt-2 mb-4 list-unstyled gap-3">
-              <li>
-                <a className="d-block text-light" href="#">
-                <i className="fa-brands fa-2x facebook rounded-circle p-2"><AiFillFacebook /></i></a>
+              <li className="d-block text-light" href="#">
+                <i className="fa-brands fa-2x facebook rounded-circle p-2"><AiFillFacebook /></i>
               </li>
-              <li>
-                <a className="d-block text-light" href="#">
-                <i className="fa-brands fa-twitter fa-2x twitter rounded-circle p-2"><AiFillTwitterCircle /></i></a>
+              <li className="d-block text-light" href="#">
+                <i className="fa-brands fa-twitter fa-2x twitter rounded-circle p-2"><AiFillTwitterCircle /></i>
           
               </li>
-              <li>
-                <a className="d-block text-light" href="#">
-                <i className=" linkedin fa-2x rounded-circle p-2"><AiFillLinkedin /></i></a>
+              <li className="d-block text-light" href="#">
+                <i className=" linkedin fa-2x rounded-circle p-2"><AiFillLinkedin /></i>
               </li>
-              <li>
-                <a className="d-block text-light" href="#">
-                <i className=" instagram fa-2x rounded-circle p-2"><AiFillInstagram /></i></a>
+              <li className="d-block text-light" href="#">
+                <i className=" instagram fa-2x rounded-circle p-2"><AiFillInstagram /></i>
               </li>
             </ul>
           </div>

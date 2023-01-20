@@ -27,9 +27,10 @@ export default function Feature() {
               <div className="imgs mt-3">
                 <Image
                   src="/ecommerce.png"
-                  width="80"
-                  height="80"
+                  width={80}
+                  height={80}
                   alt="ecommerce"
+                  priority={true}
                 />
               </div>
               <div className="card-body feat">
@@ -39,8 +40,7 @@ export default function Feature() {
                 <p className="card-text pb-4">
                 For a better customer experience, we design e-Commerce sites using an approach that puts user needs at the center of our concerns
                 </p>
-                <Link href="#">
-                  <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3 ">En savoir plus</a>
+                <Link href="#" className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3 ">En savoir plus
                 </Link>
               </div>
             </div>
@@ -48,9 +48,10 @@ export default function Feature() {
               <div className="imgs mt-3">
                 <Image
                   src="/creation-de-sites-web.png"
-                  width="80"
-                  height="80"
+                  width={80}
+                  height={80}
                   alt="ecommerce"
+                  priority={true}
                 />
               </div>
               <div className="card-body feat">
@@ -62,8 +63,7 @@ export default function Feature() {
                 in order to provide an online presence and acquire 
                 contacts, prospects and customers via the Internet.
                 </p>
-                <Link href="#" className="card-footer">
-                  <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
+                <Link href="#" className="card-footer btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus
                 </Link>
               </div>
             </div>
@@ -71,9 +71,10 @@ export default function Feature() {
               <div className="imgs mt-3">
                 <Image
                   src="/referencement-naturel.png"
-                  width="80"
-                  height="80"
+                  width={80}
+                  height={80}
                   alt="ecommerce"
+                  priority={true}
                 />
               </div>
               <div className="card-body feat ">
@@ -84,8 +85,7 @@ export default function Feature() {
                 Our experts support you to improve the visibility of your site in search engines.
                  In short, it is SEO either organic or sponsored
                 </p>
-                <Link href="#" className="card-footer">
-                  <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
+                <Link href="#" className="card-footer btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus
                 </Link>
               </div>
             </div>
@@ -93,9 +93,10 @@ export default function Feature() {
               <div className="imgs mt-3">
                 <Image
                   src="/Community-Management.webp"
-                  width="80"
-                  height="80"
+                  width={80}
+                  height={80}
                   alt="ecommerce"
+                  priority={true}
                 />
               </div>
               <div className="card-body feat">
@@ -106,8 +107,8 @@ export default function Feature() {
                 Entrust us with the writing of your visual and editorial content for your social networks in order to promote your 
                 products and services
                 </p>
-                <Link href="#">
-                  <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
+                <Link href="#"
+                  className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus
                 </Link>
               </div>
             </div>
@@ -115,9 +116,10 @@ export default function Feature() {
               <div className="imgs mt-3 ">
                 <Image className='rounded-circle'
                   src="/ERP.png"
-                  width="80"
-                  height="80"
+                  width={80}
+                  height={80}
                   alt="ecommerce"
+                  priority={true}
                 />
               </div>
               <div className="card-body feat">
@@ -127,8 +129,8 @@ export default function Feature() {
                 <p className="card-text pb-4">
                 We design solutions to centralize your data and manage your business (sales, management, production, accounting, logistics, HR, etc.).
                 </p>
-                <Link href="#">
-                  <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
+                <Link href="#"
+                  className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus
                 </Link>
               </div>
             </div>
@@ -136,9 +138,10 @@ export default function Feature() {
               <div className="imgs mt-3">
                 <Image className="rounded-circle"
                   src="/crm.png"
-                  width="80"
-                  height="80"
+                  width={80}
+                  height={80}
                   alt="ecommerce"
+                  priority={true}
                 />
               </div>
               <div className="card-body feat">
@@ -148,8 +151,8 @@ export default function Feature() {
                 <p className="card-text pb-4">
                 We go where your audience and your customers are to promote your brands, your services and your goods to consumers. In a word… we generate your sales
                 </p>
-                <Link href="#">
-                  <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
+                <Link href="#"
+                  className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus
                 </Link>
               </div>
             </div>
@@ -157,9 +160,10 @@ export default function Feature() {
               <div className="imgs mt-3">
                 <Image
                   src="/Développement mobile.png"
-                  width="80"
-                  height="80"
+                  width={80}
+                  height={80}
                   alt="ecommerce"
+                  priority={true}
                 />
               </div>
               <div className="card-body feat ">
@@ -169,8 +173,8 @@ export default function Feature() {
                 <p className="card-text pb-4">
                 Dont let your competitors get ahead of you and let us help you build your website, a mobile version or even…
                 </p>
-                <Link href="#" >
-                  <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
+                <Link href="#"
+                  className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus
                 </Link>
               </div>
             </div>
@@ -178,9 +182,10 @@ export default function Feature() {
               <div className="imgs mt-3">
                 <Image
                   src="/mesure.png"
-                  width="80"
-                  height="80"
+                  width={80}
+                  height={80}
                   alt="ecommerce"
+                  priority={true}
                 />
               </div>
               <div className="card-body feat">
@@ -191,8 +196,8 @@ export default function Feature() {
                 A tailor-made website is an essential communication medium. It gives you a personalized identification with a development adapted to your existing infrastructure.
 
                 </p>
-                <Link href="#">
-                  <a className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus</a>
+                <Link href="#"
+                  className="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">En savoir plus
                 </Link>
               </div>
             </div>

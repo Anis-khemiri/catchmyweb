@@ -13,10 +13,9 @@ function Navbar1() {
     <div className={styles.navbar}>
       <nav className="navbar navbar-expand-lg transparent-header sticky-header sticky-lg-top">
         <div className="container">
-          <Link href="/">
-            <a className={styles.navbarBrand}>
+          <Link href="/" className={styles.navbarBrand}>
               <Image src="/logo1.png" alt="" width="150" height="60" />
-            </a>
+            
           </Link>
           <button
             className="navbar-toggler"
@@ -31,31 +30,15 @@ function Navbar1() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto ">
-              <Link href="/">
-                <a className="nav-link active p-lg-3" aria-current="page">
-                  Home
-                </a>
-              </Link>
-              <Link href="/about">
-                <a className="nav-link p-lg-3" aria-current="page">
-                  About
-                </a>
-              </Link>
-              <Link href="/service">
-                <a className="nav-link p-lg-3">Service</a>
-              </Link>
-              <Link href="/works">
-                <a className="nav-link p-lg-3">Work</a>
-              </Link>
+              <Link href="/" className="nav-link active p-lg-3" >Home</Link>
+              <Link href="/about" className="nav-link p-lg-3">About</Link>
+              <Link href="/service" className="nav-link p-lg-3">Service</Link>
+              <Link href="/works" className="nav-link p-lg-3">Work</Link>
 
-              <Link href="/blog">
-                <a className="nav-link p-lg-3">Blog</a>
-              </Link>
-              <Link href="/contact">
-                <a className="nav-link p-lg-3">Contact</a>
-              </Link>
+              <Link href="/blog" className="nav-link p-lg-3">Blog</Link>
+              <Link href="/contact" className="nav-link p-lg-3">Contact</Link>
 
-              <div className="socialIcon p-3 d-none d-lg-block">
+              <div className="socialIcon p-3">
                 <FontAwesomeIcon
                   icon={faFacebook}
                   className={styles.faceIcon}

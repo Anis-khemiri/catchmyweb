@@ -1,9 +1,9 @@
 
-import Works from './../components/Works';
+import Worksc from './../components/Worksc';
 import Team from './../components/Team';
 import Meeteam from './../components/Meeteam';
 import StartProject from './../components/StartProject';
-import Blog from './../components/Blog';
+import Blogc from './../components/Blogc';
 import Landing from './../components/Landing';
 import Feature from './../components/Feature';
 import Technology from '../components/Technology';
@@ -19,7 +19,7 @@ export default function Home() {
     
 
     <Feature />
-    <Works />
+    <Worksc />
 
     <Team />
     
@@ -30,7 +30,7 @@ export default function Home() {
     
     <StartProject />
   
-    <Blog />
+    <Blogc />
     
 
 

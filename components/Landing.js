@@ -14,7 +14,7 @@ export default function Landing() {
       <h1>Taste the Creativity</h1>
       
       <p className={styles.paraglinding}>We design and build bespoke, good-looking, SEO friendly websites for cool companies. Just like this one. Clients love our process, and their customers love our creations.</p>
-     <Link className="main-btn" href="#"><a className=" rounded-pill main-btn" >Get Started</a></Link>
+     <Link  href="#" className="rounded-pill main-btn" >Get Started</Link>
     </div>
   </div>
   </>

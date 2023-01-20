@@ -1,11 +1,8 @@
-import Image from 'next/image';
-import dataPortfolio from './data/dataPortfolio';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import {faArrowsToDot} from '@fortawesome/free-solid-svg-icons'
 import Tabs from './Tab';
 
-export default function Works() {
+export default function Worksc() {
   return (
     <div>
       <div className="our-work text-center pt-5 pb-5">

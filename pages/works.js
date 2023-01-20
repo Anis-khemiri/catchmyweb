@@ -1,10 +1,10 @@
 import React from 'react'
-import Works from '../components/Works'
+import Worksc from '../components/Worksc'
 
 export default function works() {
   return (
     <div>
-     <Works /> 
+      <Worksc />
     </div>
   )
 }

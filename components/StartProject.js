@@ -12,9 +12,9 @@ export default function StartProject() {
           cancel anytime
         </p>
         <div className="d-flex justify-content-center mt-5 mb-5">
-          <Link href="#" ><a className="btn rounded-pill main-btn text-uppercase">
+          <Link href="/quote" className="btn rounded-pill main-btn text-uppercase">
             Start Project
-          </a></Link>
+         </Link>
         </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Feature from '../components/Feature'
 
-export default function service() {
+export default function Service() {
   return (
     <div>
           <Feature />

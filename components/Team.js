@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import {faArrowsToDot} from '@fortawesome/free-solid-svg-icons';
@@ -31,12 +32,12 @@ We know that the user is at the center of every business
 To best meet your needs, we carry out a complete study of your activity and provide you with a fully dedicated project manager. And because each project is unique, we create specific developments for each client. We know that your time is valuable and that return on investment is a primary objective. This is why we are committed to carrying out your project as soon as possible and at the right price.
                 </p>
               
-                <a className="btn rounded-pill main-btn text-uppercase" href="#">Order Me One</a>
+                <Link className="btn rounded-pill main-btn text-uppercase" href="#">Order Me One</Link>
               </div>
             </div>
             <div className="col-lg-6 ms-auto">
         <div className="image ">
-          <Image src="/team1.jpg" alt="" width= "600" height= "400" />
+          <Image src="/team1.jpg" alt="" width={500} height={400} layout='responsive' />
         </div>
       </div>
             </div>
