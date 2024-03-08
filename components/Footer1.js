@@ -75,7 +75,7 @@ function Footer1() {
           <div className="contact">
             <h5 className="text-light">Contact Us</h5>
             <p className="lh-lg mt-3 mb-5">Get in touch with us via mail phone.We are waiting for your call or message</p>
-            <Link href="#" className="btn rounded-pill main-btn w-100 btncon" >conatct@catchmyweb.com</Link>
+            <Link href="#" className="btn rounded-pill main-btn w-100 btncon" >contact@catchmyweb.com</Link>
             <ul className="d-flex justify-content-center mt-2 mb-4 list-unstyled gap-3">
               <li className="d-block text-light" href="#">
                 <i className="fa-brands fa-2x facebook rounded-circle p-2"><AiFillFacebook /></i>
